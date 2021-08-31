@@ -1,0 +1,8 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.content-page{
+  min-height: calc(100vh - 40px);
+}
+
+</style>
+<!-- end Simple Custom CSS and JS -->

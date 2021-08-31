@@ -1,0 +1,194 @@
+.site-content{
+    /* border-left: 1px solid #E1E1E1; */
+    /* border-right: 1px solid #E1E1E1; */
+    min-height: calc(100vh - 40px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.site-footer{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    color: #000;
+}
+
+.div-article-head{
+    text-align: center;
+}
+
+.article-author{
+    color: #7F7F7F;
+}
+
+.article-date-post{
+    color: #A4A4A4;
+}
+
+.article-widget-area a{
+    text-decoration: none;
+    color: black;
+}
+
+.comment-count,.the-tag{
+    padding: 7px;
+    background-color: #A4A4A4;
+    color: white;
+    text-decoration: none;
+    border-radius: 19px;
+    font-size: 13px;
+}
+
+.comment-count:hover{
+    background-color: #c5c2c2;
+    color: #FFFF;
+}
+
+.tags-section{
+    text-align: right;
+}
+
+.the-tag > a{
+    color:#FFFF !important;
+    text-decoration: none;
+}
+
+.the-tag{
+    margin-right: 2px;
+    margin-left: 2px;
+    display: inline-block;
+    margin-top: 5px;
+    width: max-content;
+}
+
+#comment{
+    width: 100%;
+}
+
+.comment-reply-link{
+    color: #FFFF;
+    background-color: #058E43;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 11px;
+    display: block;
+    width: 75px;
+    text-align: center;
+    margin-top: 30p;
+}
+
+.comment-reply-link:hover{
+    color: #FFFF;
+    background-color: #0fb85b;
+}
+
+.comment-respond{
+    margin-top: 25px;
+}
+
+.commentmetadata > a, .logged-in-as > a{
+    color: #A4A4A4;
+    text-decoration: none;
+}
+
+.fn > a{
+    color: black;
+    text-decoration: none;
+}
+
+.submit{
+    background-color: #0595CB;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 11pt;
+}
+
+.submit:hover{
+    background-color: #1aa7da;
+}
+
+#cancel-comment-reply-link{
+    color: red;
+    text-decoration: none;
+}
+
+#reply-title{
+    font-size: 1.5rem;
+}
+
+.comment > .parent, .comment > .odd{
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.comment > .even{
+    padding-top: 20px;
+}
+
+.custom-logo-link > img{
+    width: 170px !important;
+    height: 40px !important;
+}
+
+.pagination{
+    display:block;
+}
+
+.page-numbers{
+    background-color: #0595CB;
+    color: #FFFF;
+    padding: 6px;
+    border-radius: 6px;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.page-numbers:hover{
+    background-color: #01AFF0;
+    color: #FFFF;
+}
+
+.current{
+    background-color: #01AFF0 !important;
+}
+
+/* Custom gadget area */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .div-article-cards{
+        width: 100%;
+        height: 50w;
+        object-fit: cover;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .div-article-cards{
+        width: 100%;
+        height: 18vw;
+        object-fit: cover;
+    }
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .div-article-cards{
+        width: 100%;
+        height: 18vw;
+        object-fit: cover;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .div-article-cards{
+        width: 100%;
+        height: 18vw;
+        object-fit: cover;
+    }
+}
